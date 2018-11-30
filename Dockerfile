@@ -1,6 +1,6 @@
 FROM ubuntu:17.10
 
-ENV AWS_CLI_VERSION 1.11.158
+ARG AWS_CLI_VERSION=1.16.61
 
 RUN apt-get update
 RUN apt-get install -y build-essential npm python-pip libpng-dev autoconf pngquant wget
